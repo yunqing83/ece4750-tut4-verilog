@@ -40,4 +40,3 @@ class MinMaxUnit( VerilogModel ):
   def line_trace( s ):
     return "{}|{}(){}|{}".format( s.in0, s.in1, s.out_min, s.out_max )
 
-

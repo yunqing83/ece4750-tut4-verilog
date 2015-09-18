@@ -23,6 +23,14 @@ module top;
   // model.
   // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+  tut4_verilog_regincr_RegIncr reg_incr
+  (
+    .clk   (clk),
+    .reset (reset),
+    .in    (in),
+    .out   (out)
+  );
+
   // Verify functionality
 
   initial begin
